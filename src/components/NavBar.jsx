@@ -5,14 +5,14 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-transparent px-4 py-3">
       <Link className="navbar-brand fw-bold fs-3 glow" to="/">
-        HUBS
+        NovaShop
       </Link>
 
       <div className="collapse navbar-collapse show">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
           <li className="nav-item">
             <NavLink className="nav-link text-white fw-semibold" to="/">
-              Home
+              Inicio
             </NavLink>
           </li>
 
@@ -21,9 +21,10 @@ const NavBar = () => {
               Entornos
             </NavLink>
           </li>
+
           <li className="nav-item">
-            <NavLink className="nav-link text-white fw-semibold" to="/category/entornos">
-              Contacto
+            <NavLink className="nav-link text-white fw-semibold" to="/cart">
+              Carrito
             </NavLink>
           </li>
         </ul>
